@@ -376,7 +376,6 @@ header .nav li a:hover {
   font-weight: 700;
 }
 .copyright {
-  /* text-align: center; */
   font-size: 2rem;
   color: var(--color);
   border-top: 2px solid var(--color);
