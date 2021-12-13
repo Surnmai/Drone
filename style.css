@@ -346,9 +346,33 @@ header .nav li a:hover {
 .footer-item {
   flex: 1 1 20rem;
   color: var(--color);
+  /* cursor: pointer; */
+}
+.footer-item h3 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.footer-item p {
+  font-size: 1.5rem;
+  padding: 0.5rem 0;
+  cursor: pointer;
+}
+.footer-item p:hover i {
+  padding-left: 1rem;
+}
+.footer-item p i {
+  padding-right: 0.8rem;
+}
+.footer-item .social-media {
+  margin-top: 3rem;
 }
 .footer-item .social-media a {
   color: var(--color);
+  font-size: 2rem;
+  margin: 0 0.4rem;
+}
+.footer-item .bold-it {
+  font-weight: 700;
 }
 
 /* media queries */
