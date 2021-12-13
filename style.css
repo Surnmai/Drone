@@ -335,7 +335,8 @@ header .nav li a:hover {
   cursor: pointer;
 }
 .footer {
-  /* background: black; */
+  background: black;
+  /* columns: var(--color); */
 }
 
 /* media queries */
