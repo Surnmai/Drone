@@ -344,7 +344,7 @@ header .nav li a:hover {
   flex-wrap: wrap;
 }
 .footer-item {
-  flex: 1 1 20rem;
+  flex: 1 1 25rem;
   color: var(--color);
   /* cursor: pointer; */
 }
