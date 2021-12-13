@@ -295,7 +295,7 @@ header .nav li a:hover {
 }
 .contact-us {
   display: flex;
-  gap: 1.5rem;
+  gap: 2rem;
   flex-wrap: wrap;
 }
 .contact-us .map {
@@ -351,6 +351,7 @@ header .nav li a:hover {
 .footer-item h3 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
+  margin-top: 2rem;
 }
 .footer-item p {
   font-size: 1.5rem;
@@ -374,7 +375,12 @@ header .nav li a:hover {
 .footer-item .bold-it {
   font-weight: 700;
 }
-
+.copyright {
+  text-align: center;
+  font-size: 2rem;
+  color: var(--color);
+  border-top: 1px solid var(--color);
+}
 /* media queries */
 @media all and (max-width: 991px) {
   html {
