@@ -33,3 +33,10 @@ var swiper = new Swiper(".home-slider", {
       clickable: true,
     },
   });
+
+
+
+
+  // Auto year update
+  const year = document.querySelector('#year')
+  year.innerHTML = new Date().getFullYear()
