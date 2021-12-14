@@ -38,5 +38,5 @@ var swiper = new Swiper(".home-slider", {
 
 
   // Auto year update
-  const year = document.querySelector('#year')
+  const year = document.getElementById('year')
   year.innerHTML = new Date().getFullYear()
