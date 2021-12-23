@@ -50,7 +50,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2rem 9rem;
+  padding: 1rem 2rem;
   box-shadow: var(--box-shadow);
   z-index: 1000;
 }
@@ -63,6 +63,7 @@ header .logo {
   font-weight: 600; */
   max-width: 4rem;
   position: relative;
+  font-size: 2rem;
 }
 header .nav {
   display: flex;
@@ -349,6 +350,10 @@ header .nav li a:hover {
   flex: 1 1 30rem;
   color: var(--color);
   /* cursor: pointer; */
+}
+.footer-item .logo {
+  max-width: 4rem;
+  margin: 4rem 4rem 0;
 }
 .footer-item h3 {
   font-size: 2.5rem;
