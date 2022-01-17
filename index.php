@@ -1,36 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- font awesome links  -->
-    <link type="text/css" href="./all.css">
-
-    <!-- google fonts link  -->
-    <!-- <link type="text/css" href="./all.min.css"> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
-    <!-- swiper Js link  -->
-    <!-- <link type="text/css" href="./swiperJs.css"> -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
-
-    <!-- custom css link  -->
-    <link rel="stylesheet" href="./style.css">
-    <title>slider</title>
-</head>
-<body>
-    <header class="header">
-        <a href="#" ><img src="./Img/logo.png" class="logo"></a>
-        <ul class="nav">
-            <li><a href="#home">home</a></li>
-            <li><a href="#services">services</a></li>
-            <li><a href="#products">products</a></li>
-            <li><a href="#about">about</a></li>
-            <li><a href="#contact">contact</a></li>
-        </ul>
-        <i class="fas fa-bars" id="menuBtn"></i>
-    </header>
+<?php include 'includes/head.php' ?>
+<?php include 'includes/header.php' ?>
 
     <!-- home starts here  -->
     <section class="home" id="home">
@@ -39,11 +8,11 @@
             <div class="swiper-wrapper ">
 
                 <div class="swiper-slide box" style="background: url('./Img/drone1.jpg');">
-                    <div class="content">
+                    <!-- <div class="content">
                         <h3>Header here</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga vel neque ea recusandae odit quae, numquam itaque repellat at esse voluptates inventore atque nesciunt voluptatem quaerat harum minus dolore ratione.</p>
                         <a href="#" class="btn">view more</a>
-                    </div>
+                    </div> -->
 
                 </div>
                 <div class="swiper-slide box" style="background: url('./Img/drone2.jpg');">
@@ -198,69 +167,4 @@
         </div>
     </section>
 
-    <!-- footer starts  -->
-        <section class="footer">
-            <div class="footer-container">
-
-                <div class="footer-item">
-                    <a href="#"><img src="./Img/logo.png" class="logo"></a>
-
-                    <div class="social-media">
-                        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
-                        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square"></i></a>
-                        <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-youtube-square"></i></a>
-                    </div>
-                </div>
-
-                <div class="footer-item">
-                    <h3>programs</h3>
-                    <p><i class="fas fa-arrow-right"></i>air survey</p>
-                    <p><i class="fas fa-arrow-right"></i>real estate</p>
-                    <p><i class="fas fa-arrow-right"></i>sports event</p>
-                    <p><i class="fas fa-arrow-right"></i>golf flyeover</p>
-                    <p><i class="fas fa-arrow-right"></i>search & rescue</p>
-                    <p><i class="fas fa-arrow-right"></i>arial advertising</p>
-                    <p><i class="fas fa-arrow-right"></i>special Occassion</p>
-                </div>
-
-                <div class="footer-item">
-                    <h3>Bookings</h3>
-                    <p><i class="fas fa-phone"></i>+233-244-0000 | +233-244-0011</p>
-                    <p><i class="fas fa-at"></i>admin@trulander.com</p>
-                </div>
-
-                <div class="footer-item">
-                    <h3>open hours</h3>
-                    <p>monday to friday</p>
-                    <p class="bold-it">8:00-19:00 GMT</p>
-                    <p>saturday & sunday</p>
-                    <p class="bold-it">10:00-19:00 GMT</p>
-                </div>
-
-            </div>
-
-            <div class="copyright">
-
-                copyright &copy; surnmai <span id="year"> </span>. all rights reserved
-
-            </div>
-
-        </section>
-    <!-- footer ends -->
-    
-    <!-- back to top button  -->
-    <a href="#" class="backTotop">
-        <i class="fas fa-angle-up"></i>
-    </a>
-    <!-- back to top ends -->
-
-    <!-- swiper Js  -->
-    <!-- <script src="./swiperJs.js"></script> -->
-    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-
-    <!-- custom Js  -->
-    <script src="./main.js"></script>
-
-</body>
-</html>
+<?php include 'includes/footer.php' ?>
