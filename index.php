@@ -57,7 +57,7 @@
             <div class="content">
                 <img src="./Img/wedding 1.jpg" alt="">
                 <h3>wedding</h3>
-                <a href="#" class="btn">View more</a>
+                <a href="wedding.php" class="btn">View more</a>
             </div>
             <div class="content">
                 <img src="./Img/special occasion 1.png" alt="">
