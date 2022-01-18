@@ -47,27 +47,27 @@
 
                 </div>
                 <div class="swiper-slide box" style="background: url('./Img/drone2.jpg');">
-                    <!-- <div class="content">
+                    <div class="content">
                         <h3>Header here</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga vel neque ea recusandae odit quae, numquam itaque repellat at esse voluptates inventore atque nesciunt voluptatem quaerat harum minus dolore ratione.</p>
                         <a href="#" class="btn">view more</a>
-                    </div> -->
+                    </div>
 
                 </div>
                 <div class="swiper-slide box" style="background: url('./Img/drone3.jpg');">
-                    <!-- <div class="content">
+                    <div class="content">
                         <h3>Header here</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga vel neque ea recusandae odit quae, numquam itaque repellat at esse voluptates inventore atque nesciunt voluptatem quaerat harum minus dolore ratione.</p>
                         <a href="#" class="btn">view more</a>
-                    </div> -->
+                    </div>
 
                 </div>
                 <div class="swiper-slide box" style="background: url('./Img/drone5.jpg');">
-                    <!-- <div class="content">
+                    <div class="content">
                         <h3>Header here</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga vel neque ea recusandae odit quae, numquam itaque repellat at esse voluptates inventore atque nesciunt voluptatem quaerat harum minus dolore ratione.</p>
                         <a href="#" class="btn">view more</a>
-                    </div> -->
+                    </div>
 
                 </div>
 
