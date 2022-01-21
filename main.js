@@ -34,7 +34,7 @@ var swiper = new Swiper(".home-slider", {
     },
     centeredSlides: true,
     autoplay: {
-      delay: 8500,
+      delay: 8000,
       disableOnInteraction: false,
     },
     pagination: {
