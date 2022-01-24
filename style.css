@@ -446,6 +446,16 @@ header .nav li a:hover {
   height: 100%;
   object-fit: cover;
 }
+.image-container .content {
+  /* max-width: 0.1rem; */
+  /* padding: 0 8rem; */
+  /* max-width: -8rem; */
+  /* width: 80%; */
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+}
 
 /* media queries */
 @media all and (max-width: 991px) {
