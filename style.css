@@ -446,6 +446,15 @@ header .nav li a:hover {
   height: 100%;
   object-fit: cover;
 }
+.image-container .slider-top {
+  padding-bottom: 2rem;
+}
+.image-container .slider-top {
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
 .image-container .content {
   /* max-width: 0.1rem; */
   /* padding: 0 8rem; */
