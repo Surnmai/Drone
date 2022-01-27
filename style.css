@@ -441,10 +441,11 @@ header .nav li a:hover {
   border-radius: 0.5rem;
   margin-bottom: 2rem;
 }
-.image-container img {
+.image-container .img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  cursor: pointer;
 }
 .image-container .slider-top {
   padding-bottom: 2rem;
@@ -454,6 +455,7 @@ header .nav li a:hover {
   height: 40vh;
   object-fit: cover;
   border-radius: 0.5rem;
+  cursor: pointer;
 }
 .image-container .content {
   /* max-width: 0.1rem; */
@@ -464,6 +466,7 @@ header .nav li a:hover {
   font-size: 1.4rem;
   font-weight: 400;
   letter-spacing: 0.1rem;
+  width: 80%;
 }
 
 /* media queries */
